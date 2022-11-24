@@ -4,7 +4,7 @@
 
 ## Task
 
-![image]('https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png)
+![mastermind](./mastermind.png)
 
 Mastermind is a game composed of 8 pieces of different colors.
 A secret code is then composed of 4 distinct pieces.
