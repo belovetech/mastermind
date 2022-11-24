@@ -4,6 +4,8 @@
 
 ## Task
 
+![image]('https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png)
+
 Mastermind is a game composed of 8 pieces of different colors.
 A secret code is then composed of 4 distinct pieces.
 
@@ -31,14 +33,22 @@ If all the User's input are well placed, the user will get a congratulatory mess
 
 ## Installation
 
-make -f makefile
+Clone the repo from this [repo](https://github.com/belovetech/OGTL/tree/main/my_mastermind)
 
 ## Usage
 
-TODO - How does it work?
+run `make -f makefile ` to generate my_mastermind executable file.
+
+code: can be any 4 digits between 0 - 8
 
 ```
-./my_mastermind -c "1234"
+./my_mastermind -c "code"
+```
+
+Want to play without secret codes?
+
+```
+./my_mastermind
 ```
 
 ### The Core Team
