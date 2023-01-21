@@ -28,16 +28,24 @@ end
 
 puts did_it_pass
 
-age = 19
+status = "Goal"
 
-unless age < 18 # false
-    puts "Down with such a thing!"
+unless status != "Goal" # false
+    puts "Play kickoff"
 else
-    puts "Better becareful!"
+    puts "It's a goal"
 end
 
 
 # Ternary operator
-age = gets.to_i
+age = 19
 response = age < 18 ? "Not eligible" : "You can vote"
 puts response
+
+
+# nil and false are only falsy values
+if ""
+    puts "Hey"
+else
+    puts "Oops!"
+end
